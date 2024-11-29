@@ -11,8 +11,8 @@ class GameScene extends Scene {
 
   create() {
     this.textbox = this.add.text(
-      window.innerWidth / 2,
-      window.innerHeight / 2,
+      400,
+      300,
       'Welcome to Phaser x Vite!',
       {
         color: '#FFF',
@@ -35,8 +35,8 @@ class GameScene extends Scene {
 
 const config = {
   type: WEBGL,
-  width: window.innerWidth,
-  height: window.innerHeight,
+  width: 800,
+  height: 600,
   canvas: canvas,
   physics: {
     default: 'arcade',
